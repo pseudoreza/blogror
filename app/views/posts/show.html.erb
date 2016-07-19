@@ -1,0 +1,12 @@
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @post.detail %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> <br />
+<br /> <%= link_to 'Go Back', posts_path %>
